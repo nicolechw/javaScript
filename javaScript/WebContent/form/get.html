@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>get 방식</title>
+</head>
+
+<body>
+	<div style="font-size:large; background-color:teal;">여기는 DIV영역입니다.</div>
+	<h2>GET방식으로 데이터 전송</h2>
+	<!-- from 호출 옵션 -->
+	<div style="background-color: violet; top:50px; position: relative; left: 100px; width: 50%;">
+		<form action="getData.jsp" method="GET">
+			<table border="1">
+				<tr>
+					<th>이름</th>
+					<td><input type="text" name="myName" value="김수한무거북이와두루미"></td>
+				</tr>
+				<tr>
+					<th>전공</th>
+					<td><input type="text" name="myMajor" value="자바"></td>
+				</tr>
+				<tr>
+					<th>날짜</th>
+					<td><input type="date" name="today"></td>
+				</tr>
+				<tr>
+					<th>PSWD</th>
+					<td><input type="password" name="password"></td>
+				</tr>
+				<tr>
+					<td align="center" colspan="2">
+						<input type="submit" value="전송">
+						<input type="reset" value="취소">
+					</td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+
+</html>
